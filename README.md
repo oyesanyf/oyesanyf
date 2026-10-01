@@ -1,4 +1,4 @@
-# 🛡️ Femi Oyesanya (@oyesanyf)
+# 🛡️ femi Oyesanya (@oyesanyf)
 > **Security Professional · Detection Engineer · AI Systems & AppSec Architect**
 
 [![EDR Testing](https://img.shields.io/badge/EDR%20Testing-MITRE%20ATT%26CK%20v19.2-critical?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/oyesanyf/Edrtest)
@@ -50,7 +50,7 @@ Development & Automation:
 ### 📊 GitHub Activity & Metrics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=oyesanyf&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Femi's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=oyesanyf&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="femi's GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=oyesanyf&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top Languages" />
 </p>
 
