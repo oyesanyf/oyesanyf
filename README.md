@@ -21,11 +21,24 @@ I specialize in building defensive validation tools, security automation pipelin
 
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
-| [**Edrtest**](https://github.com/oyesanyf/Edrtest) | Enterprise EDR telemetry & atomic testing harness porting Invoke-AtomicRedTeam and mitreattack-python. Self-bootstrapping, EDR block continuation, and auto-cleanup. | `Python`, `PowerShell`, `MITRE ATT&CK`, `WinRM` |
-| [**Vibe-Code Security VSCode**](https://github.com/oyesanyf/Vibe-code-Security-Plugin-for-VsCode-) | Real-time code security analysis and vulnerability scanning extension for Visual Studio Code. | `TypeScript`, `VSCode API`, `SAST` |
-| [**ModelOrchestrator**](https://github.com/oyesanyf/ModelOrchestrator) | Multi-model routing, prompt dispatching, and automated consensus engine for foundation models. | `Python`, `Multi-Agent`, `LLMs` |
-| [**dlp**](https://github.com/oyesanyf/dlp) | High-performance Data Loss Prevention inspection engine for scanning egress and identifying sensitive artifacts. | `Security`, `Regex Engine`, `SecOps` |
-| [**ast-eclipse-plugin**](https://github.com/oyesanyf/ast-eclipse-plugin) | Abstract Syntax Tree (AST) static code analysis plugin for Eclipse IDE. | `Java`, `Eclipse Plugin API`, `AST` |
+| [**OshoosiClaw**](https://github.com/oyesanyf/OshoosiClaw) | Autonomous decentralized Endpoint Detection & Response (EDR) and AI agent containment platform combining pre-execution kernel blocking (Windows Ring-0 / Linux eBPF), 7-Ring Cedar containment, TPM 2.0 attestation, post-quantum P2P consensus, and binary reverse engineering. | `Rust`, `Python`, `eBPF / ETW`, `YARA`, `Cedar` |
+| [**KillSwitch**](https://github.com/oyesanyf/killswitch) | Zero-dependency Agentic EDR & Runtime Governance Kill-Switch enforcing pre-actuation AI agent governance (Google CAGE / APC), sub-microsecond OpenTelemetry/OpenLineage DLP egress blocking, and OS kernel isolation (Windows WFP, macOS `/dev/pf`, Linux Netlink/Landlock). | `Rust`, `Windows WFP`, `Linux Landlock`, `OpenTelemetry` |
+| [**RedactX**](https://github.com/oyesanyf/RedactX) | Calibrated, single-pass clinical PHI / PII detector and exact span localizer fine-tuned via LoRA on Google's VaultGemma-1B, achieving 99.28% HIPAA Safe Harbor recall on Harvard n2c2 2014 EHR notes without generative hallucination. | `Python`, `PyTorch`, `VaultGemma-1B`, `LoRA`, `FastAPI` |
+| [**QuorumRAG**](https://github.com/oyesanyf/QuorumRAG) | Local-first peer-to-peer Retrieval-Augmented Generation (RAG) & RLM daemon with hybrid LanceDB + Tantivy BM25 search, 100% verbatim citation grounding, Ed25519 `libp2p` mesh scatter-gather, and three-engine HIPAA/PII airlock DLP. | `Rust`, `LanceDB`, `Tantivy`, `libp2p`, `Ollama` |
+| [**RFCHunt**](https://github.com/oyesanyf/rfchunt) | Specification-driven autonomous protocol research swarm and differential buffer ruler orchestrated via LangGraph to extract normative grammar rules from IETF & PQC RFCs, synthesize boundary/desynchronization probes, and delta-debug reproducible anomalies. | `Python`, `LangGraph`, `HTTP/TLS`, `Ollama`, `PQC` |
+| [**ArXiv-to-Code**](https://github.com/oyesanyf/arxiv-to-code) | Autonomous arXiv paper discovery, 3-class Google LangExtract character-span grounding, Paper-to-Python synthesis, DynaRot hardware-aware model routing, and ShinkaEvolve + OpenEvolve evolutionary search (CLI & 8-tool MCP Server). | `Python`, `LangExtract`, `MCP`, `Evolutionary AI`, `Ollama` |
+| [**ModelFusion**](https://github.com/oyesanyf/ModelFusion) | Open-weight compound intelligence runtime uniting Master CLI, HugOS IDE (sub-8ms ReST-RL preemption), AI-native Chromium browser, and a 173-tool Universal MCP Server with 2M+ model routing, multi-model consensus, and ACDSO Pareto AutoML. | `Rust`, `Python`, `JavaScript`, `MCP`, `Chromium CDP` |
+| [**Mechanistic Interpretability**](https://github.com/oyesanyf/Mechanistic_Interpretability) | Cross-lingual LLM safety alignment & mechanistic interpretability audit probing safety circuit fragility across African languages (Yoruba, Igbo, Hausa, Swahili) vs. English via layer activation patching and neuron-level causal interventions. | `Python`, `PyTorch`, `Transformers`, `Gemma-2` |
+
+---
+
+### 🌐 Open-Source Contributions & Security Advisories
+
+| Repository | Contribution | Highlights |
+| :--- | :--- | :--- |
+| [**google/cybernetic-agent-governance-engine**](https://github.com/google/cybernetic-agent-governance-engine) | [**PR #743**](https://github.com/google/cybernetic-agent-governance-engine/pull/743) *(Merged)* | Designed fail-closed Layer 1 NIST SC-7 workload quarantine enforcement (`quarantine_guard.py`, `probe_workload_quarantine()`) with verified Linkerd mTLS identities, KMS-signed refusal receipts, and `503`/`413` guards; adopted across all 6 gateway surfaces in [**PR #848**](https://github.com/google/cybernetic-agent-governance-engine/pull/848). |
+| [**google/cybernetic-agent-governance-engine**](https://github.com/google/cybernetic-agent-governance-engine) | [**GHSA-797p-rrgm-4p56**](https://github.com/google/cybernetic-agent-governance-engine/security/advisories/GHSA-797p-rrgm-4p56) + 3 Accepted Advisories | Credited in `SECURITY.md` for published High-severity advisory `GHSA-797p-rrgm-4p56` (CVSS 7.6, fixed in `#813`), plus 3 additional accepted & remediated vulnerability disclosures via GitHub Private Vulnerability Reporting (pending coordinated publication). |
+| [**google/agentmesh**](https://github.com/google/agentmesh) | [**PR #887**](https://github.com/google/agentmesh/pull/887) *(Merged)* | Contributed a Wasmtime capability-based sandbox example and documentation demonstrating isolated agent execution on AgentMesh under dedicated per-sandbox cryptographic identity (closes `#886`). |
 
 ---
 
